@@ -16,7 +16,7 @@ echo "This script will stage your system to remove everything!"
 pacman -D --asdeps $(pacman -Qqe)
 
 # Specify packages to keep (set as explicit)
-pacman -D --asexplicit base linux linux-firmware base-devel vim amd-ucode networkmanager dhcpcd man man-db man-pages
+pacman -D --asexplicit base linux linux-firmware base-devel vim amd-ucode networkmanager dhcpcd man man-db man-pages grub efibootmgr os-prober
   # Add any other packages you want to keep
 
 echo "Packages have been set and reset is ready"
