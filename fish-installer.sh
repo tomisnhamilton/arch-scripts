@@ -21,5 +21,4 @@ do
   sleep 1
 done
 
-
 reboot
