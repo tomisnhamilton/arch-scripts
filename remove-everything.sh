@@ -1,13 +1,14 @@
 #!/bin/bash
 
-### This is a **remove everything script** using pacman
+# This is a remove everything script using pacman, must run as root!
+
 
 if [ "$EUID" -ne 0 ]; then
   echo "This script must be run as root"
   exit 1
 fi
 
-echo "Script is running as root"
+echo "This script will stage your system to remove everything!"
 
 # Remove everything
 
