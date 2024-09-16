@@ -1,2 +1,4 @@
-# arch-post-script
-My personal post-install script for Arch Linux
+# arch-scripts
+My personal scripts for my Arch install
+
+*I use Arch btw*
