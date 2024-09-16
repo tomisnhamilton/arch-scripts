@@ -8,6 +8,6 @@ sudo pacman -Syu git fish curl
 
 curl https://raw.githubusercontent.com/oh-my-fish/oh-my-fish/master/bin/install | fish
 
-omf i bang-bang
+omf i bang-bang # add "!!" command to fish shell
 
-echo "Oh-my-fish has been installed and is ready for use"
+echo "DONE!"
