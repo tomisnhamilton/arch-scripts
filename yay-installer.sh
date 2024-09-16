@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Make sure that git and base-devel are installed
-sudo pacman -S git base-devel
+sudo pacman -Syu git base-devel
 
 # Clone yay
 git clone https://aur.archlinux.org/yay.git
